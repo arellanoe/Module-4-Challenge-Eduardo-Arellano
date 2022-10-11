@@ -26,10 +26,10 @@ THEN I can save my initials and score
 
 ## Repository link
 
-
+https://github.com/arellanoe/Module-4-Challenge-Eduardo-Arellano
 
 
 ## Web Site Link
 
-
+https://arellanoe.github.io/Module-4-Challenge-Eduardo-Arellano/
 
