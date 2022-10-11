@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Challenge</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+
+
+    <div id="startscreen"   >
+        <h1>Welcome to the Web Deveolpment Quiz</h1>
+
+        <h2>Let's see how your web dev knowledge is</h2>
+        <button id="start_button">   Start Quiz        </button>
+        <button id="show_high_scores" onclick="show_highscore()">Check High Scores</button>
+
+    </div>
+
+
+
+    <div id="quiz">
+
+        <div id="timer"></div>
+        <div     id="quiz_questions">  <p></p>       </div>
+        <button id="a" onclick="check_answer('a')"> A </button>
+        <button id="b" onclick="check_answer('b')"> B </button>
+        <button id="c" onclick="check_answer('c')"> C</button>
+        <div id="question_result"></div>
+    
+    </div>
+    
+
+    <div id="end_game">
+
+        <div id="final_score"></div>
+        <input type="text"  id="initials" size="60" name="initials"  placeholder="Enter you initials for high score">
+
+        <button id="submit">Submit</button>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+<div id="top_scores">
+
+      <div id="top_score_page">
+            <div id="score_page_header">
+                <h3>Initials</h3>
+                <h3>Score</h3>
+            </div>
+            <div id="score_page_initials"></div>
+            <div id="score_page_score" ></div>
+        </div>
+
+        <div id="end_game_buttons">
+            <button id="playAgain" onclick="replay_quiz()">Play Again?</button>
+            <button id="clearHighscore" onclick="clear_score()">Clear Scores</button>
+        </div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
